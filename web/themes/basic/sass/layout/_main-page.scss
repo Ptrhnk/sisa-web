@@ -1,0 +1,15 @@
+.block-basic-branding {
+  margin-top: 15%;
+  letter-spacing: 2rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+div.site-name {
+  line-height: 4rem;
+  margin: 0 4rem;
+}
+.node-page .content {
+  @media (max-width: $medium-screen) {
+    display: none;
+  }
+}

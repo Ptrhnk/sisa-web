@@ -1,0 +1,34 @@
+.node-page,
+.node-band_page,
+.node-simple_page {
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  // bottom: 0;
+  // right: 0;
+  width: 100%;
+  // height: 100vh;
+}
+
+.node-page {
+  background-image: url("../../images/source/stranka1.png");
+  background-position: 50% 40%;
+}
+
+.page-bardo {
+  background-image: url("../../images/source/bardo-bg.jpg");
+}
+
+.page-bio {
+  background-image: url("../../images/source/bardo-bg.jpg");
+}
+
+.page-booking {
+  background-image: url("../../images/source/stranka1.png");
+}
+
+.page-tour {
+  background-image: url("../../images/source/stranka1.png");
+}

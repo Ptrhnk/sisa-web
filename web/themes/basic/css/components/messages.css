@@ -1,0 +1,57 @@
+@font-face {
+  font-family: "caviar_dreams";
+  src: url("../../fonts/CaviarDreams.ttf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "caviar_dreams";
+  src: url("../../fonts/Caviar_Dreams_Bold.ttf");
+  font-weight: bold;
+}
+
+.messages {
+  padding: 9px;
+  margin: 1em 0;
+  color: #919191;
+  background-color: #ddd;
+  border: 1px solid #c4c4c4;
+  word-wrap: break-word;
+}
+
+.messages pre {
+  border: 0;
+}
+
+.messages--warning {
+  color: #903023;
+  background-color: #ddc44f;
+  border-color: #d1b328;
+}
+
+.messages--warning pre {
+  background-color: #d1b328;
+}
+
+.messages--error {
+  color: white;
+  background-color: #cd4533;
+  border-color: #a53728;
+}
+
+.messages--error pre {
+  background-color: #a53728;
+}
+
+.messages--status {
+  color: #304319;
+  background-color: #8dbe51;
+  border-color: #73a03c;
+}
+
+.messages--status pre {
+  background-color: #73a03c;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbXBvbmVudHMvY29uZmlnL192YXJpYWJsZXMuc2NzcyIsImNvbXBvbmVudHMvbWVzc2FnZXMuY3NzIiwiY29tcG9uZW50cy9jb21wb25lbnRzL21lc3NhZ2VzLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBY0E7RUFDRSw2QkFBNEI7RUFDNUIseUNBQXdDO0VBQ3hDLG9CQUFtQjtDQ2JwQjs7QURlRDtFQUNFLDZCQUE0QjtFQUM1QiwrQ0FBOEM7RUFDOUMsa0JBQWlCO0NDWmxCOztBQ1BEO0VBQ0UsYUFBWTtFQUNaLGNBQWE7RUFDYixlQUErQjtFQUMvQix1QkYwQ2U7RUV6Q2YsMEJBQTBDO0VBQzFDLHNCQUFxQjtDQUt0Qjs7QUFYRDtFQVNJLFVBQVM7Q0FDVjs7QUFHSDtFQUNFLGVBQWdDO0VBQ2hDLDBCRnNDcUI7RUVyQ3JCLHNCQUF5QztDQUsxQzs7QUFSRDtFQU1JLDBCQUE2QztDQUM5Qzs7QUFHSDtFQUNFLGFBQVk7RUFDWiwwQkY2Qm1CO0VFNUJuQixzQkFBdUM7Q0FLeEM7O0FBUkQ7RUFNSSwwQkFBMkM7Q0FDNUM7O0FBR0g7RUFDRSxlQUFpQztFQUNqQywwQkZpQm9CO0VFaEJwQixzQkFBd0M7Q0FLekM7O0FBUkQ7RUFNSSwwQkFBNEM7Q0FDN0MiLCJmaWxlIjoidG8uY3NzIn0= */
+/*# sourceMappingURL=messages.css.map */
