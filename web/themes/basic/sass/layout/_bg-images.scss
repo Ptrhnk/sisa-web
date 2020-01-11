@@ -1,6 +1,7 @@
 .node-page,
 .node-tour_date,
 .node-band_page,
+.node-band_page_white,
 .node-simple_page {
   background-size: cover;
   background-position: center;
@@ -20,6 +21,9 @@
 
 .page-bardo {
   background-image: url("../../images/source/bardo-bg.jpg");
+}
+.page-fehero-rocher {
+  background-image: url("../../images/source/fehero-bg.jpg");
 }
 
 .page-bio {

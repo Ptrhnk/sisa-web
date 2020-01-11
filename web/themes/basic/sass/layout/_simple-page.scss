@@ -11,35 +11,27 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  // border: 5px solid white;
 }
 
-.simple-description-container {
+.simple-description-container,
+.description-container-white {
   background-color: rgba(240, 240, 240, 0.8);
+  color: black;
 
   border-radius: 1rem;
   padding: 2rem 2rem 1rem 2rem;
-  color: black;
+  margin: 2rem 0;
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 50%;
-}
-.simple-heading {
-  // border: 1px solid white;
-  font-weight: normal;
-}
 
-.simple-description {
-  // border: 1px solid white;
-  text-align: center;
-}
-
-.node-simple_page img {
-  border-radius: 100rem;
-  border: 2px solid black;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  @media (max-width: 1000px) {
+    width: 60%;
+  }
+  @media (max-width: $medium-screen) {
+    width: 80%;
+  }
 }

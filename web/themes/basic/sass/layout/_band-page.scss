@@ -1,17 +1,18 @@
-.node-band_page {
+.node-band_page,
+.node-band_page_white {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.node-band_page .content {
+.node-band_page .content,
+.node-band_page_white .content {
   min-height: 100%;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  // border: 2px solid white;
 }
 
 .band-page-container {
@@ -20,11 +21,18 @@
   align-items: center;
 }
 
-.band-description-container {
+.description-container-black {
   background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+.description-container-white {
+  background-color: rgba(240, 240, 240, 0.8);
+  color: black;
+}
+.description-container-black,
+.description-container-white {
   border-radius: 1rem;
   padding: 2rem 2rem 0rem 2rem;
-  color: white;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -41,19 +49,20 @@
   }
 }
 
-.band-heading {
-  // border: 1px solid white;
+.band-heading,
+.simple-heading {
   font-weight: normal;
   letter-spacing: 0.6rem;
   text-transform: uppercase;
 }
 
-.band-description {
-  // border: 1px solid white;
+.band-description,
+.simple-description {
   text-align: center;
 }
 
-.band_page__image img {
+.band_page__image img,
+.band_page_white__image img {
   border-radius: 100rem;
   border: 2px solid black;
   margin-top: 2rem;
