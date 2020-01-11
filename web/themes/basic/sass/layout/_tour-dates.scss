@@ -1,0 +1,45 @@
+.page-tour {
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
+}
+.views-element-container {
+  height: 100vh;
+  margin-top: 5rem;
+  // display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.item-list {
+  // min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+.tour-date-list {
+  background-color: rgba(240, 240, 240, 0.5);
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  width: 80%;
+
+  :last-child {
+    margin-bottom: 0;
+  }
+}
+.tour-date-row {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.views-field {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+}
+.views-field-tickets {
+  // width: 10%;
+}

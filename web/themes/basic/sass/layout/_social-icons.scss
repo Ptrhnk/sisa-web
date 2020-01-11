@@ -1,0 +1,21 @@
+// .block-frontpagesocials,
+// .block-bardosocials
+.block-block-content {
+  position: absolute;
+  top: 1.8rem;
+  right: 1.8rem;
+  z-index: 10;
+}
+
+.item-list--linkicon {
+  margin-bottom: 0.2rem;
+}
+// Hack for not showing link name for socials,
+// could be possible to remove in Drupal
+span.linkicon__text {
+  display: none;
+}
+span.linkicon__icon {
+  font-size: 2rem;
+  opacity: 0.9;
+}

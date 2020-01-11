@@ -158,11 +158,7 @@ body {
 
 #sidebar-first,
 #sidebar-second {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  // flex-direction: column;
-  min-height: 20rem;
+  min-height: 26rem;
 
   @media (max-width: $medium-screen) {
     min-height: 2rem;
@@ -176,8 +172,11 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-weight: bold;
+  opacity: 0.9;
+  font-size: 1.2rem;
   color: black;
+  line-height: 2;
+  letter-spacing: 1px;
 }
 
 .block-menu {
@@ -199,14 +198,6 @@ body {
   clear: both;
 }
 
-#header {
-  // margin: 1.8rem;
-  // min-height: 7rem;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-direction: row;
-}
 #sidebar-first,
 #sidebar-second {
   height: 100%;
