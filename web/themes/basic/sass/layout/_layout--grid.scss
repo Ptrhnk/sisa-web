@@ -159,10 +159,18 @@ body {
 #sidebar-first,
 #sidebar-second {
   min-height: 26rem;
+}
 
+#sidebar-first {
   @media (max-width: $medium-screen) {
     min-height: 2rem;
-    margin: 2rem 0;
+    margin-top: 19rem;
+  }
+}
+#sidebar-second {
+  @media (max-width: $medium-screen) {
+    min-height: 2rem;
+    margin-bottom: 2rem;
   }
 }
 
@@ -183,7 +191,9 @@ body {
   text-align: center;
 
   @media (max-width: $medium-screen) {
-    background-color: rgba(175, 198, 222, 0.8);
+    // background-color: rgba(175, 198, 222, 0.8);
+    // background-color: #afc6de;
+    text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
     padding: 1rem;
     border-radius: 1rem;
   }

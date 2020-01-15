@@ -27,6 +27,13 @@
     </nav><!-- /#navigation -->
   {% endif %}
 
+  {# Background Image #}
+  {% block background_image %}
+    {% if page.background_image %}
+      {{ page.background_image }}
+    {% endif %}
+  {% endblock %}
+
   <!-- ______________________ MAIN _______________________ -->
 
   <div id="main">
