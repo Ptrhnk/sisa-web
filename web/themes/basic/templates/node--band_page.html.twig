@@ -1,0 +1,29 @@
+{#
+/**
+ * Custom template for band page
+ * 
+ */
+#}
+
+{# <article {{ attributes }}> #}
+  <div class='content'>
+    <div class='band_page__image'>
+      {{ content.field_image }}
+    </div>
+  
+    <div class='band-page-container'>
+      <div class='description-container-black'>
+        <h1 class='band-heading'>
+          {{ content.field_band_heading }}
+        </h1>
+        <p class='band-description'>
+          {{ content.body }}
+        </p>
+        {# embedded videos #}
+        {{ content.field_youtube_embedded }}
+        {# <iframe width='420' height='315' src='{{ content.field_youtube_embedded.0['#url'] }}'></iframe> #}
+        {# <iframe width='420' height='315' src='{{ content.field_youtube_embedded.1['#url'] }}'></iframe> #}
+      </div>
+    </div>
+  </div>
+{# </article> #}
