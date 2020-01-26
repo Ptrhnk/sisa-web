@@ -4,12 +4,8 @@
  * 
  */
  #}
-<div {{ attributes }}>
+{# <div {{ attributes }}> #}
   {% for item in items %}
-    {# <pre> #}
-      {# {{ dump(items, attributes) }} #}
-      {# {{ dump(item) }} #}
-    {# </pre> #}
     <div class="video-embedded">
       <iframe
         width='560' height='315'
@@ -20,4 +16,4 @@
       </iframe>
     </div>
   {% endfor %}
-</div>
+{# </div> #}

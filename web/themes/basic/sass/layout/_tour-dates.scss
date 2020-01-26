@@ -1,28 +1,14 @@
-.page-tour {
-  // display: flex;
-  // justify-content: center;
-  // align-items: center;
-}
 .views-element-container {
-  height: 100vh;
-  margin-top: 5rem;
-  // display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.item-list {
-  // min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-grow: 1;
 }
-.tour-date-list {
-  background-color: rgba(240, 240, 240, 0.5);
+.page-tour table {
+  background-color: rgba(240, 240, 240, 0.6);
   border-radius: 2rem;
-  display: flex;
-  flex-direction: column;
-  padding: 2rem;
+  text-align: center;
+  // padding: 4rem;
+  margin: auto;
   width: 80%;
 
   :last-child {
@@ -30,15 +16,11 @@
   }
 }
 .tour-date-row {
-  margin-bottom: 1rem;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  // margin-bottom: 1rem;
+  border: none;
 }
 .views-field {
   width: 20%;
-  display: flex;
-  justify-content: center;
 }
 .views-field-tickets {
   // width: 10%;

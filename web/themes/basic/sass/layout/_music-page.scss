@@ -1,0 +1,15 @@
+.embed-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.embed-block .video-embedded {
+  margin: 1rem;
+}
+.embed-block .soundcloud-embedded {
+  margin: 1rem;
+  width: 60%;
+}
