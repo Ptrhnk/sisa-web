@@ -1,0 +1,17 @@
+<article {{ attributes }}>
+  {{ title_prefix }}
+  <div class='content'>
+    {{ title_suffix }}
+    <div class='music-page-container'>
+      {# <div> #}
+        {# {{ content.field_spotify_embedded }} #}
+      {# </div> #}
+      <div>
+        {{ content.field_soundcloud_embedded }}
+      </div>
+      <div>
+        {{ content.field_youtube_embedded }}
+      </div>
+    </div>
+  </div>
+</article>
