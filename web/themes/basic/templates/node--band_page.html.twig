@@ -4,8 +4,13 @@
  * 
  */
 #}
-
-{# <article {{ attributes }}> #}
+<div class="social-icons">
+  {{ content.field_social_icon_link }}
+</div>
+<article {{ attributes }}>
+  <header>
+    <div {{ attributes }} ></div>
+  </header>
   <div class='content'>
     <div class='band_page__image'>
       {{ content.field_image }}
@@ -21,9 +26,7 @@
         </p>
         {# embedded videos #}
         {{ content.field_youtube_embedded }}
-        {# <iframe width='420' height='315' src='{{ content.field_youtube_embedded.0['#url'] }}'></iframe> #}
-        {# <iframe width='420' height='315' src='{{ content.field_youtube_embedded.1['#url'] }}'></iframe> #}
       </div>
     </div>
   </div>
-{# </article> #}
+</article>

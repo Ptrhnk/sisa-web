@@ -4,12 +4,20 @@
  * 
  */
  #}
-{# <ul> #}
-  {# {% for item in items %} #}
+<div {{ attributes }}>
+  {% for item in items %}
     {# <pre> #}
       {# {{ dump(items, attributes) }} #}
       {# {{ dump(item) }} #}
     {# </pre> #}
-    {# <iframe width='100%' height='315' src='{{ item }}'></iframe> #}
-  {# {% endfor %} #}
-{# </ul> #}
+    <div class="video-embedded">
+      <iframe
+        width='560' height='315'
+        src='{{ item.content['#url'] }}'
+        frameborder="0"
+        allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+    </div>
+  {% endfor %}
+</div>

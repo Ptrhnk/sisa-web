@@ -32,7 +32,7 @@
 .description-container-black,
 .description-container-white {
   border-radius: 0.6rem;
-  padding: 2rem 2rem 0rem 2rem;
+  padding: 2rem;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -52,9 +52,9 @@
 .band-heading,
 .simple-heading {
   font-weight: normal;
-  letter-spacing: 0.6rem;
+  letter-spacing: 0.7rem;
   text-transform: uppercase;
-  margin-bottom: 0;
+  margin-bottom: 0.6rem;
 }
 
 .band-description,
@@ -68,4 +68,8 @@
   border: 2px solid black;
   margin-top: 2rem;
   margin-bottom: 3rem;
+}
+
+.video-embedded {
+  margin-top: 1rem;
 }
