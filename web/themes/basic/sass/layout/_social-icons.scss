@@ -6,6 +6,12 @@
   top: 1.8rem;
   right: 1.8rem;
   z-index: 10;
+
+  @media (max-width: $medium-screen) {
+    top: 1rem;
+    right: 1rem;
+    position: absolute;
+  }
 }
 
 .item-list--linkicon {

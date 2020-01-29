@@ -16,21 +16,23 @@
     </div>
   
     <div class='band-page-container'>
-      {# {% if content.field_black == true
-      set class = 'description-container-black' %} #}
-        <div class='description-container-black'>
-          <h1 class='band-heading'>
-            {{ content.field_band_heading }}
-          </h1>
-          <p class='band-description'>
-            {{ content.body }}
-          </p>
-          {# embedded videos #}
-          <div>
-            {{ content.field_youtube_embedded }}
-          </div>
+      <div
+      {% if node.field_black_description.value %}
+        class='description-container-black'
+      {% else %}
+        class='description-container-white'
+      {% endif %}>
+        <h1 class='band-heading'>
+          {{ content.field_band_heading }}
+        </h1>
+        <p class='band-description'>
+          {{ content.body }}
+        </p>
+        {# embedded videos #}
+        <div class="band-videos">
+          {{ content.field_youtube_embedded }}
         </div>
-      {# {% endif %} #}
+      </div>
     </div>
   </div>
 </article>
