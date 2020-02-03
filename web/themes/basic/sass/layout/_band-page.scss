@@ -42,11 +42,9 @@
   width: 42rem;
   margin-bottom: 2rem;
 
-  @media (max-width: $large-screen) {
-    // width: 70%;
-  }
   @media (max-width: $medium-screen) {
-    width: 95%;
+    width: 100%;
+    padding: 1rem;
   }
 }
 
@@ -75,13 +73,10 @@
   .video-embedded {
     margin-bottom: 1.4rem;
     width: 100%;
-    height: 330px;
+    height: 340px;
 
     @media (max-width: $medium-screen) {
-      height: 240px;
-    }
-    @media (max-width: $large-screen) {
-      height: 290px;
+      height: 280px;
     }
   }
   :last-child {
