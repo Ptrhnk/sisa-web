@@ -1,4 +1,13 @@
+.album-large,
+.album-small {
+  margin: 2rem;
+  display: inline-block;
+  // display: flex;
+}
 .album-large {
 }
 .album-small {
+}
+.item-list li {
+  display: inline-block;
 }

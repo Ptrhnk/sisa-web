@@ -1,15 +1,22 @@
+.page-tour #content-area {
+  min-height: 100vh;
+  width: 100%;
+}
 .views-element-container {
   display: flex;
-  justify-content: center;
+  flex-grow: 1;
+  justify-content: flex-start;
   align-items: center;
+  overflow-x: auto;
 }
 .page-tour table {
   background-color: rgba(240, 240, 240, 0.6);
   border-radius: 0.6rem;
   text-align: center;
   // padding: 4rem;
-  margin: auto;
+  margin: 2.2rem auto;
   width: 80%;
+  min-width: 54rem;
 
   :last-child {
     margin-bottom: 0;
