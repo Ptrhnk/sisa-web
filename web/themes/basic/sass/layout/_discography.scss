@@ -1,13 +1,12 @@
 .album-large,
 .album-small {
-  margin: 2rem;
+}
+.views-row {
   display: inline-block;
-  // display: flex;
+  margin: 0 1rem 2rem 1rem;
 }
-.album-large {
-}
-.album-small {
-}
-.item-list li {
-  display: inline-block;
+.block-views-block-discography-view-block-album,
+.block-views-block-discography-view-block-appears {
+  flex-direction: column;
+  margin-top: 2rem;
 }
