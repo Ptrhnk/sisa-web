@@ -1,4 +1,34 @@
 
+Linkicon 8.x-1.0-dev, 2020-01-12
+--------------------------------
+- Issue #3035351 by gausarts, janes_p: Support FontAwesome 5+ and SVG with JS.
+- Added a new option to support FontAwesome 5+: Additional icon classes
+- Simplified settings at item level to match the container ones, basically
+  removing `linkicon_` prefixes as we are now confident no conflicts found with
+  parent link settings, e.g.: `linkicon_load` to `load`.
+- Added LinkIconFormatterTrait to declutter the main formatter body.
+- Added micro optimizations.
+- Added supports for multiple libraries.
+- Issue #3082436 by alonaoneill: Capitalize the name of the module in .info.yml
+  file.
+- Issue #3045103 by Webbeh, auxiliaryjoel: Poor Installation Instructions.
+
+Linkicon 8.x-1.0-dev, 2017-04-07
+--------------------------------
+- Converted leftovers to short array syntax.
+- Fixed for undefined index at "Manage display" admin pages.
+- Improved README.
+- Issue #2867120 by keithm: Add additional fields for themers.
+
+Linkicon 8.x-1.0-dev, 2016-11-29
+--------------------------------
+- Updated .info file.
+
+Linkicon 8.x-1.0-dev, 2016-09-20
+--------------------------------
+- #2799217 by flocondetoile: requirement not satisfiable prevent installing
+  linkicon with composer.
+
 Linkicon 8.x-1.0-dev, 2016-08-30
 --------------------------------
 - Fixed for schema errors if using Views.
@@ -33,7 +63,8 @@ Linkicon 8.x-1.0-dev, 2015-11-22
 
 Linkicon 8.x-1.0-dev, 2015-11-16
 --------------------------------
-- #2615954 by Sam152: Use strict comparison in hook_field_widget_WIDGET_TYPE_form_alter
+- #2615954 by Sam152: Use strict comparison in
+  hook_field_widget_WIDGET_TYPE_form_alter
 
 Linkicon 8.x-1.0-dev, 2015-10-02
 --------------------------------

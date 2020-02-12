@@ -19,8 +19,5 @@
     "source": "http://cgit.drupalcode.org/linkicon"
   },
   "license": "GPL-2.0+",
-  "minimum-stability": "stable",
-  "require": {
-    "link": "8.*"
-  }
+  "minimum-stability": "stable"
 }
