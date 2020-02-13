@@ -1,0 +1,27 @@
+.block-responsive-menu {
+  position: fixed;
+  top: 5.8rem;
+  right: 1.8rem;
+  z-index: 10;
+}
+
+.block-responsive-menu span.label {
+  display: none;
+}
+.responsive-menu-toggle-icon {
+  &:before {
+    top: 5px;
+    width: 32px;
+    height: 4px;
+  }
+  & span.icon {
+    top: 14px;
+    width: 32px;
+    height: 4px;
+  }
+  &:after {
+    top: 23px;
+    width: 32px;
+    height: 4px;
+  }
+}
