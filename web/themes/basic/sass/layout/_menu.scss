@@ -1,7 +1,7 @@
 .block-responsive-menu {
   position: fixed;
   top: 5.8rem;
-  right: 1.8rem;
+  right: 2.3rem;
   z-index: 10;
 }
 
@@ -24,4 +24,18 @@
     width: 32px;
     height: 4px;
   }
+}
+.mm-listitem {
+  text-align: center;
+  font-weight: bold;
+}
+.mm-navbar__title {
+  display: none;
+}
+.mm-menu {
+  // --mm-color-background: #afc6de;
+}
+.mm-panel {
+  padding-left: 0;
+  padding-right: 0;
 }

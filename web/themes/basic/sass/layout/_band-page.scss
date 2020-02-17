@@ -10,13 +10,11 @@
   flex-direction: column;
   text-align: center;
 }
-
 .band-page-container {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 .description-container-black {
   background-color: rgba(0, 0, 0, 0.8);
   color: white;
@@ -35,7 +33,7 @@
   justify-content: center;
   align-items: center;
   width: 42rem;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 
   @media (max-width: $medium-screen) {
     width: 100%;
@@ -59,7 +57,7 @@
 .band_page__image img {
   border-radius: 100rem;
   border: 2px solid black;
-  margin-top: 2rem;
+  margin-top: 3rem;
   margin-bottom: 3rem;
 }
 

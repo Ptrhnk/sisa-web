@@ -137,7 +137,7 @@ html.mm-opened .mm-page {
 .responsive-menu-toggle-icon:after,
 .responsive-menu-toggle-icon span.icon {
   background: #fff;
-  content: '';
+  content: "";
   display: block;
   width: 20px;
   height: 3px;
@@ -192,10 +192,12 @@ html.mm-opening .responsive-menu-toggle-icon:after {
 #mm-blocker {
   background: rgba(0, 0, 0, 0);
 }
+
 .mm-opening #mm-blocker {
   background: rgba(0, 0, 0, 0.2);
   transition: background 1s ease 0.3s;
 }
+
 .mm-opening #page {
   border-left: 1px solid #ccc;
 }
