@@ -1,8 +1,18 @@
 .block-responsive-menu {
   position: fixed;
-  top: 5.8rem;
-  right: 2.3rem;
+  top: 6.7rem;
+  left: 0.8rem;
   z-index: 10;
+
+  @media (max-width: $large-screen) {
+    top: 5rem;
+    position: absolute;
+  }
+}
+.responsive-menu-toggle-icon:before,
+.responsive-menu-toggle-icon:after,
+.responsive-menu-toggle-icon span.icon {
+  background: rgba(255, 255, 255, 0.9);
 }
 
 .block-responsive-menu span.label {
@@ -11,17 +21,17 @@
 .responsive-menu-toggle-icon {
   &:before {
     top: 5px;
-    width: 32px;
+    width: 29px;
     height: 4px;
   }
   & span.icon {
     top: 14px;
-    width: 32px;
+    width: 29px;
     height: 4px;
   }
   &:after {
     top: 23px;
-    width: 32px;
+    width: 29px;
     height: 4px;
   }
 }
@@ -38,4 +48,17 @@
 .mm-panel {
   padding-left: 0;
   padding-right: 0;
+}
+.mm-menu_offcanvas {
+  @media (min-width: 550px) {
+    max-width: 340px;
+  }
+}
+.mm-wrapper_opening .mm-menu_offcanvas.mm-menu_opened ~ .mm-slideout {
+  @media (min-width: 550px) {
+    transform: translate3d(340px, 0, 0);
+  }
+}
+li.menu-item.mm-listitem :hover {
+  background: lighten(#333333, 10%);
 }

@@ -1,4 +1,11 @@
 // TODO: move to some global page css file
+.node-music_page .responsive-menu-page-wrapper,
+.node-band_page .responsive-menu-page-wrapper {
+  position: absolute;
+  bottom: 3rem;
+  top: 3rem;
+  width: 100%;
+}
 .node-music_page .content,
 .node-band_page .content,
 .page-discography #content-area {
@@ -57,7 +64,6 @@
 .band_page__image img {
   border-radius: 100rem;
   border: 2px solid black;
-  margin-top: 3rem;
   margin-bottom: 3rem;
 }
 

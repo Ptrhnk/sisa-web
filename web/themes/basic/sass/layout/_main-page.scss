@@ -1,16 +1,79 @@
 .block-basic-branding {
-  margin-top: 4rem;
+  margin-top: 3rem;
   letter-spacing: 2rem;
+  text-indent: 2rem;
   text-transform: uppercase;
   text-align: center;
   opacity: 0.9;
+
+  @media (max-width: $large-screen) {
+    margin-top: 1.8rem;
+  }
+  @media (max-width: $medium-screen) {
+    text-indent: 0;
+    letter-spacing: 1.4rem;
+    margin-left: 1.4rem;
+  }
+  @media (max-width: $small-screen) {
+    letter-spacing: 1.2rem;
+  }
 }
 div.site-name {
   line-height: 4rem;
   margin: 0 4rem;
+  @media (max-width: $medium-screen) {
+    font-size: 1.8rem;
+  }
 }
 .node-page .content {
   @media (max-width: $medium-screen) {
     display: none;
   }
+}
+#sidebar-first,
+#sidebar-second {
+  min-height: 30rem;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#sidebar-first {
+  @media (max-width: $medium-screen) {
+    min-height: 2rem;
+    margin-top: 2rem;
+  }
+}
+#sidebar-second {
+  @media (max-width: $medium-screen) {
+    min-height: 2rem;
+    margin-bottom: 2rem;
+  }
+}
+
+#sidebar-first .menu,
+#sidebar-second .menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.9;
+  font-size: 1.2rem;
+  color: black;
+  line-height: 2;
+  letter-spacing: 1px;
+  text-indent: 1px;
+}
+
+.block-menu {
+  text-align: center;
+  // text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+
+  @media (max-width: $medium-screen) {
+    text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
+  }
+}
+.menu-item {
+  white-space: nowrap;
 }

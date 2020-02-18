@@ -31,6 +31,7 @@ body {
 
 body {
   margin: 0;
+  scroll-behavior: smooth;
 }
 
 .container {
@@ -109,6 +110,7 @@ body {
   // Span this div 2 columns wide for medium screens.
   @include grid-media($medium-screen-up) {
     @include grid-column(2);
+    // margin-left: 4rem;
 
     // Shift it to the left to place it in the far left column. Different shift for two-sidebar and one-sidebar layout.
     @include grid-push(-6);
@@ -137,6 +139,8 @@ body {
   @include grid-media($medium-screen-up) {
     @include grid-column(2);
     @include grid-push(0);
+    // float: right;
+    // margin-right: 4rem;
   }
 
   @include grid-media($large-screen-up) {
@@ -156,49 +160,6 @@ body {
   align-items: center;
 }
 
-#sidebar-first,
-#sidebar-second {
-  min-height: 26rem;
-}
-
-#sidebar-first {
-  @media (max-width: $medium-screen) {
-    min-height: 2rem;
-    margin-top: 19rem;
-  }
-}
-#sidebar-second {
-  @media (max-width: $medium-screen) {
-    min-height: 2rem;
-    margin-bottom: 2rem;
-  }
-}
-
-#sidebar-first .menu,
-#sidebar-second .menu {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  opacity: 0.9;
-  font-size: 1.2rem;
-  color: black;
-  line-height: 2;
-  letter-spacing: 1px;
-}
-
-.block-menu {
-  text-align: center;
-
-  @media (max-width: $medium-screen) {
-    // background-color: rgba(175, 198, 222, 0.8);
-    // background-color: #afc6de;
-    text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
-    padding: 1rem;
-    border-radius: 1rem;
-  }
-}
-
 // Layout Helpers
 #header,
 #footer,
@@ -206,12 +167,4 @@ body {
 .breadcrumb,
 .node {
   clear: both;
-}
-
-#sidebar-first,
-#sidebar-second {
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }

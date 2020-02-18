@@ -1,17 +1,18 @@
-// .block-frontpagesocials,
-// .block-bardosocials
 .block-block-content,
 .social-icons {
   position: fixed;
-  top: 1.8rem;
-  right: 1.8rem;
+  top: 1.5rem;
+  right: 1.4rem;
   z-index: 10;
 
-  @media (max-width: $medium-screen) {
-    top: 1rem;
-    right: 1rem;
+  @media (max-width: $large-screen) {
+    top: 0;
     position: absolute;
   }
+}
+// nefunguje
+.icon-soundcloud {
+  font-size: 1.6rem;
 }
 
 .item-list--linkicon {
@@ -25,4 +26,8 @@ span.linkicon__text {
 span.linkicon__icon {
   font-size: 2rem;
   opacity: 0.9;
+}
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  width: 1.4em;
 }
