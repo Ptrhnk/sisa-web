@@ -35,15 +35,31 @@
     height: 4px;
   }
 }
-.mm-listitem {
+li.mm-listitem {
   text-align: center;
   font-weight: bold;
+  color: black;
+}
+.mm-listitem:after {
+  border: none;
+}
+.mm-menu {
+  background: transparent !important;
+  background-color: transparent !important;
+  --mm-color-background: transparent !important;
+}
+.mm-panel,
+.mm-panels {
+  background-image: url("../../images/source/menu-bg-vlasy.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .mm-navbar__title {
   display: none;
 }
-.mm-menu {
-  // --mm-color-background: #afc6de;
+.mm-navbar {
+  border: none;
 }
 .mm-panel {
   padding-left: 0;
@@ -59,6 +75,7 @@
     transform: translate3d(340px, 0, 0);
   }
 }
-li.menu-item.mm-listitem :hover {
-  background: lighten(#333333, 4%);
+.mm-menu_keyboardfocus a:focus,
+.mm-menu_keyboardfocus.mm-menu_opened ~ .mm-wrapper__blocker a:focus {
+  background-color: rgba(255, 255, 255, 0.2);
 }

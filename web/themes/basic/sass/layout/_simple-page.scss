@@ -1,9 +1,3 @@
-.node-simple_page {
-  // display: flex;
-  // align-items: center;
-  // justify-content: center;
-}
-
 .simple-page-container {
   height: 100vh;
   width: 100%;
@@ -12,25 +6,32 @@
   justify-content: center;
   align-items: center;
 }
+.simple-heading {
+  font-weight: normal;
+  letter-spacing: 0.8rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
 
 .simple-description-container {
-  background-color: rgba(240, 240, 240, 0.8);
+  // background-color: rgba(240, 240, 240, 0.8);
   color: black;
 
   border-radius: 1rem;
-  padding: 2rem 2rem 1rem 2rem;
+  padding: 2rem 2rem 6rem 2rem;
   margin: 2rem 0;
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 50%;
+  width: 30rem;
+  font-size: 20px;
 
   @media (max-width: 1000px) {
     width: 60%;
   }
   @media (max-width: $medium-screen) {
-    width: 80%;
+    width: 90%;
   }
 }

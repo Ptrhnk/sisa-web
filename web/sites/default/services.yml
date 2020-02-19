@@ -6,7 +6,7 @@ parameters:
       gc_maxlifetime: 200000,
       cookie_lifetime: 2000000,
     }
-  twig.config: { debug: false, auto_reload: true, cache: false }
+  twig.config: { debug: false, auto_reload: false, cache: true }
   renderer.config:
     {
       required_cache_contexts:

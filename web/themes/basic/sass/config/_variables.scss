@@ -45,6 +45,7 @@ $small-spacing: $base-spacing / 2;
 $base-z-index: 0;
 
 // Colors
+$black: #000000;
 $dark-gray: #333;
 $medium-gray: #999;
 $light-gray: #ddd;
@@ -58,7 +59,8 @@ $warning-color: #ddc44f;
 $error-color: #cd4533;
 
 // Font Colors
-$base-font-color: $dark-gray;
+// $base-font-color: $dark-gray;
+$base-font-color: $black;
 // $base-font-color: white;
 // $action-color: $primary-color;
 $action-color: white;

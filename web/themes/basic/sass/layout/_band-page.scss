@@ -1,9 +1,18 @@
 // TODO: move to some global page css file
+// FIX for mmenu bug
 .node-music_page .responsive-menu-page-wrapper,
 .node-band_page .responsive-menu-page-wrapper {
   position: absolute;
   bottom: 3rem;
   top: 3rem;
+  width: 100%;
+}
+.page-tour .responsive-menu-page-wrapper,
+.page-discography .responsive-menu-page-wrapper,
+.page-booking .responsive-menu-page-wrapper {
+  position: absolute;
+  bottom: 0;
+  top: 0;
   width: 100%;
 }
 .node-music_page .content,
@@ -48,8 +57,7 @@
   }
 }
 
-.band-heading,
-.simple-heading {
+.band-heading {
   font-weight: normal;
   letter-spacing: 0.7rem;
   text-transform: uppercase;
@@ -65,6 +73,9 @@
   border-radius: 100rem;
   border: 2px solid black;
   margin-bottom: 3rem;
+  @media (max-width: $medium-screen) {
+    width: 3rem;
+  }
 }
 
 .band-videos {
