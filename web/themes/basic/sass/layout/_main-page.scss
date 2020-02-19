@@ -32,11 +32,15 @@ div.site-name {
 }
 #sidebar-first,
 #sidebar-second {
-  min-height: 30rem;
+  min-height: 20rem;
   height: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
+  margin-bottom: 2rem;
+  @media (max-height: 550px) {
+    min-height: 16rem;
+  }
 }
 
 #sidebar-first {
