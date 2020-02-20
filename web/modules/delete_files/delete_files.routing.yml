@@ -1,0 +1,7 @@
+delete_files.delete_files_form:
+  path: '/admin/content/delete_files'
+  defaults:
+    _form: 'Drupal\delete_files\Form\DeleteFiles'
+    _title: 'Delete files'
+  requirements:
+    _permission: 'access delete files page'

@@ -1,0 +1,6 @@
+'access delete files page':
+  title: Access delete files page
+  description: Allow users to access the delete files page
+'delete files':
+  title: Delete files (replace managed files)
+  description: Warning - Give to trusted roles only; this permission has security implications
