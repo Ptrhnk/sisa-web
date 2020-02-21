@@ -1,9 +1,0 @@
-{# Override of view for discography #}
-
-{# {% if fields.field_appears_on.content %} #}
-
-<div class={{fields.field_appears_on.content.value ? "album-large" : "album-small"}}>
-  <a target='_blank' href='{{ fields.field_url.content|render|striptags|trim }}'>
-    {{ fields.field_album_image.content }}
-  </a>
-</div>

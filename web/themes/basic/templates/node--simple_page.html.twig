@@ -1,0 +1,27 @@
+{#
+/**
+ * Custom template for booking page
+ * 
+ */
+#}
+
+<div class="social-icons">
+  {{ content.field_social_icon_link }}
+</div>
+<article {{ attributes }}>
+  {{ title_prefix }}
+  <div class='content'>
+    {{ title_suffix }}
+  
+    <div class='simple-page-container'>
+      <div class='simple-description-container'>
+        <h1 class='simple-heading'>
+          {{ content.field_heading }}
+        </h1>
+        <p class='simple-description'>
+          {{ content.body }}
+        </p>
+      </div>
+    </div>
+  </div>
+</article>

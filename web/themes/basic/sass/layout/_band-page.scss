@@ -9,7 +9,7 @@
 }
 .page-tour .responsive-menu-page-wrapper,
 .page-discography .responsive-menu-page-wrapper,
-.page-booking .responsive-menu-page-wrapper {
+.node-simple_page .responsive-menu-page-wrapper {
   position: absolute;
   bottom: 0;
   top: 0;
@@ -17,7 +17,8 @@
 }
 .node-music_page .content,
 .node-band_page .content,
-.page-discography #content-area {
+.page-discography #content-area,
+.node-simple_page .content {
   min-height: 100vh;
   width: 100%;
   display: flex;
@@ -64,8 +65,7 @@
   margin-bottom: 0.6rem;
 }
 
-.band-description,
-.simple-description {
+.band-description {
   text-align: center;
 }
 
