@@ -23,3 +23,6 @@
 
 # Ignore .env files as they are personal
 /.env
+
+# Ignore npm lockfiles in all directories
+**/package-lock.json
